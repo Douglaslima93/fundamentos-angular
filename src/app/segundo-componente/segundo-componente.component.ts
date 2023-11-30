@@ -8,5 +8,9 @@ import { Component, OnInit } from '@angular/core';
 export class SegundoComponenteComponent {
   nome = "Douglas"
   dataNascimento = "1993-01-12"
+  urlImagem = "/assets/programador.webp"
 
+  mostrarDataNascimento() {
+    alert(`A data de nascimento do Douglas é: ${this.dataNascimento}`)
+  }
 }
