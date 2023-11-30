@@ -12,3 +12,31 @@ button:hover {
     color: white;
     background-color: black;
 }
+
+.texto-renderizando {
+    font-size: 30px;
+    text-align: center;
+}
+
+.ul-renderizando {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.ul-renderizando li {
+    font-size: 18px;
+    padding: 20px;
+}
+
+.ul-renderizando span {
+    background-color: green;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+}
+
+.ul-renderizando .esgotado {
+    background-color: black;
+}
