@@ -10,6 +10,7 @@ import { PCustomizadoComponent } from './p-customizado/p-customizado.component';
 import { TwoWayDataBindingComponent } from './two-way-data-binding/two-way-data-binding.component';
 import { FormsModule } from '@angular/forms';
 import { RenderizandoListasComponent } from './renderizando-listas/renderizando-listas.component';
+import { ComponentePersonalizadoComponent } from './componente-personalizado/componente-personalizado.component';
 
 
 @NgModule({
@@ -21,6 +22,7 @@ import { RenderizandoListasComponent } from './renderizando-listas/renderizando-
     PCustomizadoComponent,
     TwoWayDataBindingComponent,
     RenderizandoListasComponent,
+    ComponentePersonalizadoComponent,
   ],
   imports: [
     BrowserModule,
